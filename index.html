@@ -1,3 +1,4 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,16 +7,22 @@
     <title>Tamil Cyber Security</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="head.css">
-    <script type="text/javascript" src="yogi.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-    
+    <!-- Ensure scripts are deferred so they load after DOM is ready -->
+    <script type="module" src="firebase.js" defer></script>
+    <script type="module" src="yogi.js" defer></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.0.0/firebase-database.js"></script>
+    <!-- Include bcryptjs -->
 </head>
 <body>
-    <div id="nav-placeholder"></div>
+    <div id="nav-container"></div>
 
     <section id="first">
-        <div class="content">
-            <img src="img.png" class="image" alt="Cyber Security Image">
+        <div class="content w-1 h-2 ">
+            <img src="img.png" class="lm" alt="Cyber Security Image">
             <p><b>
                 Hi Guys, Welcome to Tamil Cyber Security my channel,
                 I will upload Ethical Hacking,
@@ -24,9 +31,13 @@
             </b></p>
         </div>
     </section>
-    <br><br>
+    <br>
+     <div class="Course"> </div>
     <div class="yt">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/rPXah0Mvvvo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <b><h1 class="px-5">Videos</h1></b>
+       
     </div>
+
+  
 </body>
 </html>

@@ -2,12 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: lightgray;
     /* overflow: hidden; */
 }
 
-.image {
-    padding: 80px 90px;
+.lm {
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -19,8 +18,16 @@ body {
     display: flex;
     align-items: center;
     padding-left: 90px;
+
 }
 
 .yt {
    padding: 90px;   
+}
+
+.yt iframe {
+    margin-bottom: 20px;
+    padding: 50px; 
+    height: 30%;
+    width: max-content;
 }

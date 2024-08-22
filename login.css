@@ -1,6 +1,6 @@
-/* Add necessary styles for the login form */
-body{
+body {
     overflow: hidden;
+    
 }
 .f1 {
     margin: 50px auto;
@@ -67,7 +67,7 @@ body{
     color: red;
     margin: 10px 0;
 }
-.messageDiv{
+.messageDiv {
     background-color: blue;
     color: white;
     padding: 10px 20px;
